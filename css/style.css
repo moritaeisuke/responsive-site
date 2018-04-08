@@ -1,0 +1,98 @@
+@import url(https://fonts.googleapis.com/css?family=Abel);
+/* Base
+------------------------------------------------------------*/
+html {
+  font-size: 62.5%; }
+header
+  img{
+   width: 100%;
+   height: 500px;
+}
+
+
+#skills h2 {
+  color: #000;
+  margin-bottom: 60px;
+  text-align: center;
+  font-size: 40px;
+  border:1px solid black;
+}
+
+
+#skills .skill-box {
+  float: left;
+    margin:0 30px 0 30px;
+    background-color:red;
+    text-align: center;
+    width:550px;
+    height:200px;
+    border:1px solid black;
+    padding-bottom: 20px;
+ text-align: center;
+} 
+
+#skills .skill-box h3{
+   font-size: 50px
+}
+#skills .skill-box p{
+   font-size: 12px
+}
+
+.clearfix:after {
+  content: '';
+  display: block;
+  clear: both; 
+}
+#contact  {
+  clear:both;
+ text-align: center
+}
+#contact {
+  font-size: 20px
+}
+ #contact  h2{
+    padding-top: 10px;
+ }
+.sample {
+    width:200px;
+    font-size:24px;
+    font-weight:bold;
+    text-decoration:none;
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    padding:8px 0 10px;
+    color:#fff;
+    background-color:#49a9d4;
+    border-radius:5px;
+    margin-bottom: 10px;
+}
+footer {
+  background-color: #bea300;
+  padding: 10px 0;
+  text-align: center;
+  color: #FFF;
+  }
+  @media screen and (max-width:768px){
+    /*画面サイズが７６８px以下の場合適用*/
+    header
+  img{
+   width: 100%;
+   height: 250px;
+}
+    #skills .skill-box{
+    float: center;
+    margin-left: 60px;
+    margin-top: 60px;
+    background-color: blue;
+    }
+    #contact  h2{
+    padding-top: 20px;
+  }
+  }
+  
+ 
+
+  
+
+/*# sourceMappingURL=style.css.map */
