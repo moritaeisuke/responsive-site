@@ -3,41 +3,80 @@
 ------------------------------------------------------------*/
 html {
   font-size: 62.5%; }
+body {
+text-align:center;
+margin: 0 auto;
+}
+
 header
   img{
    width: 100%;
    height: 500px;
 }
 
-
-#skills h2 {
+#wrapper{
+  float: left;
+  width:66%;
+}
+  #skils {
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 30px;
+  }
+ #skils h2 {
   color: #000;
   margin-bottom: 60px;
   text-align: center;
   font-size: 40px;
   border:1px solid black;
 }
-
-
-#skills .skill-box {
-  float: left;
-    margin-left: 20px;
-    background-color:red;
-    text-align: center;
-    width:28vw;
-    max-height:300px;
-    border:1px solid black;
-    padding-bottom: 20px;
- text-align: center;
-} 
-
-
-#skills .skill-box h3{
+#skils h3{
    font-size: 5.0em
-}
-#skills .skill-box p{
+ }
+#skils  p {
    font-size: 1.2em
 }
+.side01, .main {
+    float: right;
+    }
+.main-contents {
+    float: left;
+    width: 70%;
+}
+.side02{
+  float: right;
+    width: 20%;
+}
+.main{
+  width:49%;
+  max-height:300px;
+  margin-right: 15px;
+    background-color:red;
+    text-align: center;
+    border:1px solid black;
+    padding-bottom: 20px;
+}
+.side01{
+  width:39%;
+  max-height:300px;
+  float: left;
+   margin-left: 30px;
+    background-color:red;
+    text-align: center;
+    border:1px solid black;
+    padding-bottom: 20px;
+}
+.side02{
+  width:29%;
+  max-height:300px;
+  float: right;
+  margin-right: 30px;
+    background-color:red;
+    text-align: center;
+    border:1px solid black;
+    padding-bottom: 20px;
+}
+
 
 .clearfix:after {
   content: '';
@@ -45,6 +84,7 @@ header
   clear: both; 
 }
 #contact  {
+  width: 100%;
   clear:both;
  text-align: center
 }
@@ -53,6 +93,7 @@ header
 }
  #contact  h2{
     padding-top: 10px;
+    border:none ;
  }
 .sample {
     width:200px;
@@ -81,13 +122,49 @@ footer {
    width: 100%;
    height: 250px;
 }
-    #skills .skill-box{
-    float: center;
-    margin-left: 60px;
-    margin-top: 60px;
-    background-color: blue;
-    width:550px;
-    height:200px;
+ .skils {
+   width: 100%;
+ }
+ .main-contents{
+   width: 100%
+ }
+ .main{
+  float: left;
+  margin-left: 120px;
+  margin-right: auto;
+  width:100%;
+	height:200px;
+	background-color: blue;
+	margin-bottom: 20px;
+	padding-bottom: 30px
+ }
+ .side01{
+   float: left;
+   margin-left: 120px;
+	 margin-right: auto;
+	 width:100%;
+	 height:200px;
+	 background-color: blue;
+	 margin-bottom: 20px;
+	 padding-bottom: 30px
+ }
+ .side02{
+   display:inline;
+   float: left;
+	 margin-left: 120px;
+	 width:66%;
+	 height:200px;
+	 background-color: blue;
+	 margin-bottom: 20px;
+	 padding-bottom: 45px
+ }
+    #wrapper{
+    margin-left: auto;
+		margin-right: auto;
+    }
+    .main, .side01 ,.main-contents{
+    width: 100%;
+      
     }
     #contact  h2{
     padding-top: 20px;
